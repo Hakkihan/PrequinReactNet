@@ -20,4 +20,4 @@ dotnet ef dbcontext scaffold "Host=localhost;Port=5432;Database=Prequin;Username
 
 Frontend:
 
--Using React hooks, tailwindcss.
+-Using React hooks, TS/JS
