@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "ag-grid-community": "^32.3.3",
+    "ag-grid-react": "^32.3.3"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12"
+  }
+}
