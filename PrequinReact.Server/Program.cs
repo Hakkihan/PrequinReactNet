@@ -21,6 +21,7 @@ namespace PrequinReact.Server
             builder.Services.AddSwaggerGen();
             builder.Services.AddScoped<IInvestorsService, InvestorsService>();
             builder.Services.AddScoped<IInvestorsRepository, InvestorsRepository>();
+
             builder.Services.AddDbContext<PGSqlContext>(options =>
                 options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 

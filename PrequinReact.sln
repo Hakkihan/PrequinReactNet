@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrequinReact.Server", "Preq
 EndProject
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "prequinreact.client", "prequinreact.client\prequinreact.client.esproj", "{65ECF59C-CDA7-41BD-B8EF-22F7F114B4DD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prequin.Tests", "Prequin.Tests\Prequin.Tests.csproj", "{0135DD4D-C9CB-4559-A458-655928C9BDBB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{65ECF59C-CDA7-41BD-B8EF-22F7F114B4DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65ECF59C-CDA7-41BD-B8EF-22F7F114B4DD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{65ECF59C-CDA7-41BD-B8EF-22F7F114B4DD}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{0135DD4D-C9CB-4559-A458-655928C9BDBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0135DD4D-C9CB-4559-A458-655928C9BDBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0135DD4D-C9CB-4559-A458-655928C9BDBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0135DD4D-C9CB-4559-A458-655928C9BDBB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
